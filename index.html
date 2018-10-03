@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prime Sifter</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <h3>Prime Sifter</h3>
+      </div>
+      <div id="input_area">
+        <form id="user_input">
+          <div class="form-group">
+            <label for="user_number">Enter a number and page will return every prime number less than that number.</label>
+            <input type="number" class="form-control" id="user_number" placeholder="100">
+          </div>
+          <button type="submit" class="btn btn-lg btn-info">Submit</button>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="well">
+            <h3>Results:</h3>
+            <span id="prime_number_output"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
